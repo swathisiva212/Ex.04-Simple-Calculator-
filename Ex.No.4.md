@@ -46,6 +46,20 @@ Deploy the website.
 Upload to GitHub Pages for free hosting.
 
 ## PROGRAM
+## index.js
+```
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+);
+```
 ## APP.JS
 ```
 import React, { useState } from 'react';
@@ -215,6 +229,7 @@ button:active {
 
 ## OUTPUT
 
+![image](https://github.com/user-attachments/assets/837df023-ab4f-411f-a626-6d713b380ce0)
 
 ## RESULT
 The program for developing a simple calculator in React.js is executed successfully.
